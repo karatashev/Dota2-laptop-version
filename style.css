@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("images/background.jpg");
+}
+
+h1, h2, h3, p { 
+  margin-top: 0;
+ }
+
+h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 15px;
+}
+
+h2 { font-size: 2rem; }
+
+p { font-size: 20px; }
+
+img {
+  display: block;
+  width: 100%;
+}
+
+section {
+  padding: 40px 0;
+}
+
+/* Reusable */
+.w-80 {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.white {
+  color: white;
+}
+
+.grey {
+  color: grey;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  text-transform:uppercase;
+  background-color: grey;
+  font-weight: 500;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: 0;
+  opacity: 0.7;
+  transition: transform 650ms cubic-bezier(.5, 0, .5, 1),
+              opacity 250ms linear;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+  opacity: 0.9;
+}
+
+
+
+/* HEADER */
+.main-header {
+  background-color: black;
+  color: white;
+  /* font-size: 25px; */
+  padding: 5px 30px;
+  height: auto;
+}
+
+.header-wrap {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .logo-section {
+  display: flex;
+  align-items: center;
+} */
+
+.logo {
+  height: auto;
+  width: 60px;
+  background-color: black;
+  float: left;
+  padding-top: 10px;
+}
+
+.text-logo {
+  position: relative;
+  height: auto;
+  width: auto;
+  float: left;
+  top: 22px;
+  font-size: 25px;
+}
+
+.text-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+li a:hover {
+  border-bottom: 2px solid white;
+  opacity: 0.7;
+}
+
+li:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* HERO IMAGE SECTION */
+.hero-section {
+  height: calc(100vh - 150px);
+  background-image: url("/images/hero-img-removebg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text span {
+  display: block;
+  font-size: 3rem;
+  padding-top: 15px;
+}
+
+/* HEROES SECTION */
+.heroes-section {
+  text-align: center;
+}
+
+.heroes-section h2 {
+  margin-bottom: 0;
+}
+
+.heroes-section p {
+  font-weight: 300;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.cards-container-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  transition: transform 650ms cubic-bezier(.5, 0, .5, 1),
+              opacity 250ms linear;
+}
+
+.card:hover,
+.card:focus {
+  transform: scale(1.1);
+} 
+
+/* .card-image {
+  transition: transform 650ms cubic-bezier(.5, 0, .5, 1),
+              opacity 250ms linear;
+}
+
+.card-image:hover,
+.card-image:focus {
+  transform: scale(1.25);
+} */
+
+/* IO FLEX SECTION */
+.io-flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.io-image,
+.io-text {
+  flex-basis: 50%;
+}
+
+.io-image-transparent {
+  transition: transform 650ms cubic-bezier(.5, 0, .5, 1),
+              opacity 250ms linear;
+}
+
+.io-image-transparent:hover,
+.io-image-transparent:focus {
+  transform: scale(1.2);
+}
+
+/* FOOTER */
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 15px 0;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
