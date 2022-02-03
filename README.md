@@ -3,6 +3,8 @@ You can check:
 - laptop version:  https://dota2-laptop-version.netlify.app/
 - mobile verison:  https://dota2-mobile-version.netlify.app/
 
+I deployed the site separately becouse i didn't want to have hamburger menu on the laptop-version and im using only CSS
+
 Very cool website that i made while practicing HTML, CSS, Flexbox, Grid. 
 There is also a mobile version with Hamburger Menu only made with CSS.
 
